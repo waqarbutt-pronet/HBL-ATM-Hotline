@@ -1,0 +1,524 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #f2f3f4 !important;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper	{
+	margin: 0px;
+	padding: 0px;
+}
+.header-main	{
+	margin: 0px;
+	padding: 0px;
+	background: #008269;
+}
+.header-sub	{
+	margin: 0px;
+	padding: 0px;
+}
+.main-logo	{
+	margin: 22px 0;
+	padding: 0px;
+}
+.main-logo a	{
+	margin: 0px;
+	padding: 0px;
+}
+.main-logo a img	{
+	margin: 0px;
+	padding: 0px;
+}
+.top-text	{
+	margin: 0px;
+	padding: 0px;
+}
+.top-text p	{
+	margin: 25px 0 0 0;
+	padding: 0px;
+	color: #fbcf02;
+	text-align: right;
+	font: bold 24px 'Open Sans', sans-serif;
+}
+.links-main	{
+	margin: 0px;
+}
+.main-btn	{
+	width: 100%;
+	background: none;
+	border: 0px;
+	padding: 0px;
+}
+.link-box	{
+	margin: 30px 0 0 0;
+}
+.total-links	{
+	background: linear-gradient(-90deg, #44484a, #5d6264 );
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	position: relative;
+	text-align: left;
+}
+.total-links i	{
+	color:  #000;
+	opacity: 0.1;
+	font-size: 130px;
+	margin: 10px 0 10px 10px;
+}
+.total-links:hover	{
+	background: linear-gradient(-90deg, #fbcf01, #fcdb41 );
+}
+.links-up	{
+	background: linear-gradient(-90deg, #008269, #05ac8c );
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	position: relative;
+	text-align: left;
+}
+.links-up i	{
+	color:  #000;
+	opacity: 0.1;
+	font-size: 130px;
+	margin: 10px 0 10px 10px;
+}
+.links-up:hover	{
+	background: linear-gradient(-90deg, #fbcf01, #fcdb41 );
+}
+.links-down	{
+	background: linear-gradient(-90deg, #bb0000, #f00f0f );
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	position: relative;
+	text-align: left;
+}
+.links-down i	{
+	color:  #000;
+	opacity: 0.1;
+	font-size: 130px;
+	margin: 10px 0 10px 10px;
+
+}
+.links-down:hover	{
+	background: linear-gradient(-90deg, #fbcf01, #fcdb41 );
+}
+.links-txt1	{
+	margin: 0px;
+	position: absolute;
+	left: 15px;
+	top: 50px;
+	text-transform: uppercase;
+	font: 600 2.5vw/30px 'Open Sans', sans-serif;
+}
+.links-txt2	{
+	margin: 0px;
+	position: absolute;
+	right: 15px;
+	font: 800 4vw/150px 'Open Sans', sans-serif;
+}
+.location-main	{
+	margin: 30px 0 0 0;
+	padding: 0px;
+}
+.location-main h1	{
+	margin: 0px;
+	padding: 13px 20px;
+	background: #008269;
+	color: #fbcf02;
+	font: bold 18px 'Open Sans', sans-serif;
+	-moz-border-top-right-radius: 5px;
+	-ms-border-top-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-ms-border-top-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.location-main h1 i	{
+	margin: 0 10px 0 0;
+	padding: 0px;
+	color: #fbcf02;
+	font-size: 18px;
+}
+.search-main label.dropdown select {
+	padding: 10px;
+	background: #fff;
+	color: #585858;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	outline: none;
+	font: 14px/30px 'Open Sans', sans-serif;
+	width: 100%;
+	height: 50px;
+}
+.search-main label.dropdown select:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #444;
+}
+.search-main label.dropdown select::-ms-expand {
+	display: none;
+}
+.search-main label.dropdown:before {
+	content: '';
+	right: 5px;
+	top: -7px;
+	width: 30px;
+	height: 33px;
+	background: none;
+	position: absolute;
+	pointer-events: none;
+	display: block;
+}
+.search-main label.dropdown { 
+	position: relative; 
+	width: 100%;
+	margin: 15px 0 0 0;
+}
+.search-main label.dropdown:after {
+	content: '>';
+	font: 16px Consolas, monospace;
+	color: #585858;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: 2px;
+	top: 10px;
+	border: 0px;
+	position: absolute;
+	pointer-events: none;
+	width: 34px;
+	padding: 0 0 5px 0;
+	text-indent: 14px;
+}
+@media screen\0 {
+.search-main label.dropdown:after {
+		width: 38px;
+		text-indent: 15px;
+        right: 0;
+	}
+}
+@media screen and (min--moz-device-pixel-ratio:0) {
+.search-main label.dropdown select { padding-right: 40px; }
+.search-main label.dropdown:before { right: 6px; }
+.search-main label.dropdown:after {
+		text-indent: 14px;
+		right: 6px;
+		top: 12px;
+		width: 36px;
+		background: none;
+	}
+}
+
+.search-main input 	{
+	border: 1px solid #cccccc;
+	font: 14px/50px 'Open Sans', sans-serif;
+	border-radius: 5px;
+	width: 100%;
+	color: #585858;
+	padding: 0 10px;
+	margin: 15px 0 0 0;
+	height: 50px;
+}
+.search-main button 	{
+	border: 0px solid #cccccc;
+	text-transform: uppercase;
+	font: bold 18px/50px 'Open Sans', sans-serif;
+	border-radius: 5px;
+	width: 100%;
+	color: #585858;
+	padding: 0 10px;
+	margin: 15px 0 0 0;
+	height: 50px;
+	background: linear-gradient(-90deg, #fbcf01, #fcdb41 );
+}
+.search-main button:hover 	{
+	color: #fff;
+	background: linear-gradient(-90deg, #44484a, #5d6264 );
+}
+.navigator-main	{
+	margin: 15px 0 0 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+}
+.atm-loc-main	{
+	overflow-y: scroll;
+	height: 650px;
+}
+.atm-loc	{
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+	padding: 8px 15px 15px 30px;
+}
+.atm-loc i	{
+	display: inline-block;
+	vertical-align: top;
+	width: 5%;
+	color: #008269;
+	margin: 5px 0 0 -19px;
+}
+.atm-loc h2	{
+	display: inline-block;
+	color: #008269;
+	font: 16px 'Open Sans', sans-serif;
+	margin: 0 0 2px 0;
+	padding: 0px;
+}
+.atm-loc p	{
+	display: inline-block;
+	color: #585858;
+	font: 12px 'Open Sans', sans-serif;
+	margin: 0 0 5px 0;
+	padding: 0px;
+}
+.atm-loc a	{
+	display: inline-block;
+	color: #585858;
+	text-align: center;
+	font:600 12px/30px 'Open Sans', sans-serif;
+	background: linear-gradient(-90deg, #fbcf01, #fcdb41 );
+	border-radius: 5px;
+	width: 96px;
+	height: 30px;
+}
+.atm-loc a:hover 	{
+	color: #fff;
+	background: linear-gradient(-90deg, #44484a, #5d6264 );
+	text-decoration: none;
+}
+.map-main	{
+	margin: 0px;
+}
+.footer-main {
+	padding: 10px 0;
+	margin: 30px 0 0 0;
+    background: #44484a;
+}
+.footer-main p {
+	margin: 0px 0 0 0;
+	padding: 0px;
+    color: #fff;
+	font: 12px 'Open Sans', sans-serif;
+}
+
+.login-wrap {
+	width: 100%;
+	padding: 0px 0;
+	margin: 60px 0 60px 0;
+}
+
+.login-form	{
+	margin: 0px;
+}
+
+.login-form label	{
+    color: #fff;
+	font: 14px 'Open Sans', sans-serif;
+}
+
+.login-form input	{
+    color: #585858;
+	font: 14px 'Open Sans', sans-serif;
+	padding: 8px;
+}
+
+.login-form button {
+    display: inline-block;
+    color: #585858;
+    text-align: center;
+    font: 600 14px/30px 'Open Sans', sans-serif;
+    background: linear-gradient(-90deg, #fbcf01, #fcdb41 );
+    border-radius: 5px;
+    width: 96px;
+    height: 30px;
+	padding: 0px;
+}
+
+.login-form button:not(:disabled):not(.disabled).active, .login-form button:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background: linear-gradient(-90deg, #44484a, #5d6264 );
+    text-decoration: none;
+}
+
+.login-form button:hover {
+    color: #fff;
+    background: linear-gradient(-90deg, #44484a, #5d6264 );
+    text-decoration: none;
+}
+
+.login-area {
+    padding: 50px 30px;
+	background: #008269;
+
+}
+
+.login-area h2 {
+    margin: 0px 0 20px 0;
+    padding: 0px;
+    color: #fbcf02;
+    font: bold 24px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner-sec {
+    background: url(../images/banner.jpg) no-repeat ;
+	background-size: cover;
+    height: 400px ;
+    padding: 0;
+	border: 1px solid #008269;
+}
+
+/* Custom Radio Button Start*/
+
+.radiotextsty {
+  color: #fff;
+  font: 14px 'Open Sans', sans-serif;
+}
+
+.customradio {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.customradio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #fbcf02;
+  border-radius: 50%;
+  border:1px solid #fbcf02;
+}
+
+/* On mouse-over, add a grey background color */
+.customradio:hover input ~ .checkmark {
+  background-color: #fbcf02;
+}
+
+/* When the radio button is checked, add a blue background */
+.customradio input:checked ~ .checkmark {
+  background-color: #fbcf02;
+  border:1px solid #fbcf02;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.customradio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.customradio .checkmark:after {
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #585858;
+}
+
+/* Custom Radio Button End*/
+
+@media screen and (max-width: 991px) {
+    .top-text p {
+		margin: 28px 0 0 0;
+		text-align: right;
+		font: bold 20px 'Open Sans', sans-serif;
+	}
+
+}
+@media screen and (max-width: 767px) {
+	.main-logo {
+		margin: 15px 0;
+		padding: 0px;
+	}	
+    .top-text p {
+		margin: 0px 0 15px 0;
+		text-align: left;
+	}
+	.link-box {
+		margin: 15px 0 0 0;
+	}
+	.links-txt1	{
+		margin: 0px;
+		left: 15px;
+		top: 50px;
+		font: 600 34px/28px 'Open Sans', sans-serif;
+	}
+	.links-txt2	{
+		margin: 0px;
+		right: 15px;
+		font: 800 60px/150px 'Open Sans', sans-serif;
+	}
+	.location-main {
+		margin: 15px 0 0 0;
+		padding: 0px;
+	}
+	.banner-sec	{
+		display: none;
+	}
+	.login-wrap {
+    	margin: 0px 0 0 0;
+	}
+	.login-area {
+    	margin: 30px 0 0 0;
+	}
+	.footer-main {
+		padding: 10px 0;
+		margin: 30px 0 0 0;
+		background: #44484a;
+		position: relative !important;
+	}
+}
+@media screen and (max-width: 575px) {
+	.location-main h1 {
+		display: inline-flex;
+		width: 100%;
+	}
+	.location-main h1 i {
+		margin: 4px 10px 0 0;
+	}
+	
+}
+
+
